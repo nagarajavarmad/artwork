@@ -36,6 +36,10 @@
   color: var(--primary-color);
 }
 
+.productFeatures {
+  background-color: white;
+}
+
 .featureImg {
   display: block;
   max-width: 100%;

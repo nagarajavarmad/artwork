@@ -18,6 +18,10 @@ img {
   height: 100%;
 }
 
+.h100vh {
+  height: 100vh;
+}
+
 .textPrimary {
   color: var(--primary-color);
 }
@@ -37,6 +41,7 @@ img {
   */
 body {
   color: var(--text-color);
+  background-color: #f1f5f9;
 }
 
 .navBar {
@@ -78,5 +83,20 @@ a.navLink:active {
   text-decoration: none;
   font-weight: 500;
   font-size: 1.25rem;
+  color: var(--primary-color);
+}
+
+footer {
+  padding: 2rem 0;
+}
+
+.footerLink {
+  display: block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.57);
+  padding: 0.5rem;
+}
+
+.footerLink:hover {
   color: var(--primary-color);
 }

@@ -43,40 +43,48 @@
                   </div>
                 </a>
               </div>
-              <h3 class="text-center mb-4">Login into Artwork</h3>
+              <h3 class="text-center mb-4">Create new account</h3>
               <form action="./index.html">
                 <div class="mb-4">
                   <label for="emailId" class="form-label">Email Id</label>
                   <input
                     id="emailId"
-                    autocomplete="username"
                     class="form-control"
                     type="text"
                     name="emailId"
                   />
                 </div>
                 <div class="mb-4">
-                  <div class="mb-1">
-                    <label for="password" class="form-label">Password</label>
-                    <input
-                      id="password"
-                      autocomplete="current-password"
-                      class="form-control"
-                      type="password"
-                      name="password"
-                    />
-                  </div>
-                  <a class="loginLink">Forgot password?</a>
+                  <label for="password" class="form-label">Password</label>
+                  <input
+                    id="password"
+                    autocomplete="new-password"
+                    class="form-control"
+                    type="password"
+                    name="password"
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="confirmPassword" class="form-label"
+                    >Confirm Password</label
+                  >
+                  <input
+                    id="confirmPassword"
+                    autocomplete="new-password"
+                    class="form-control"
+                    type="password"
+                    name="confirmPassword"
+                  />
                 </div>
 
                 <div>
-                  <button type="submit" class="btn btn-primary">Log in</button>
+                  <button type="submit" class="btn btn-primary">Sign up</button>
                 </div>
               </form>
             </div>
             <div class="loginCard px-3 py-3">
-              New to Artwork?
-              <a class="loginLink" href="./register.html">Create an account</a>
+              Already have an account?
+              <a class="loginLink" href="./login.html">Login</a>
             </div>
           </div>
         </div>
