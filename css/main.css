@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #4338ca;
+  --text-color: rgba(0, 0, 0, 0.83);
+  --violet-500-color: #8b5cf6;
+  --violet-900-color: #2e1065;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/**
+  *  Style utilities
+  */
+
+.h100 {
+  height: 100%;
+}
+
+.textPrimary {
+  color: var(--primary-color);
+}
+
+.text2 {
+  color: rgba(0, 0, 0, 0.57);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/**
+  *  Global navbar styling
+  */
+body {
+  color: var(--text-color);
+}
+
+.navBar {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/**
+  *  Styling for links in navbar
+  */
+
+a.navLink {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: var(--text-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+a.navLink:hover,
+a.navLink:active {
+  color: var(--primary-color);
+}
+
+.brandLink {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
