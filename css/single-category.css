@@ -1,0 +1,22 @@
+.sampleCard {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 320px;
+}
+
+.sampleCard__img img {
+  display: block;
+  max-width: 100%;
+}
+
+.sampleCard__text {
+  padding: 0.5rem 1rem;
+}
+
+.sampleCard__title {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
