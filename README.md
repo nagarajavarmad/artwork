@@ -66,6 +66,14 @@ On Desktop
 - Text column is on the left
 - Image column is on the right
 
+## Future enhancements
+
+The current project is developed purely with html for templating. This leads to duplication of code for same elements that are present in different pages.
+
+For individual category pages, the layout will be the same for all pages with just the data changing. With the current static html static, we have to copy paste the layout code for each page.
+
+We can avoid these issues by creating a dynamic web application using a framework like `React with Next.js` and create the pages on the fly with data when the page is requested.
+
 ## References
 
 1. Project layout, text, image inspiration https://www.designcrowd.com/
