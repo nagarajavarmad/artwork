@@ -17,6 +17,7 @@ The project is developed as a pure html based static website.
 - Bootstrap CSS https://getbootstrap.com/
 - Fontawesome icons https://fontawesome.com/
 - Swiper js for testimonial carousel https://swiperjs.com/
+- Google Maps embed
 
 ## Website Description
 
@@ -64,3 +65,9 @@ On Desktop
 
 - Text column is on the left
 - Image column is on the right
+
+## References
+
+1. Project layout, text, image inspiration https://www.designcrowd.com/
+2. Icons from https://fontawesome.com/
+3. Images from https://dribbble.com/
