@@ -1,0 +1,22 @@
+.contactSection {
+  background-color: white;
+  padding: 5rem 0;
+}
+
+.contactCard {
+  max-width: 500px;
+  width: 80%;
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.contactCard p {
+  margin-bottom: 0.5rem;
+  color: #cbd5e1;
+}
+
+.contactCard a {
+  color: #cbd5e1;
+}

@@ -78,6 +78,10 @@ a.navLink:active {
   color: var(--primary-color);
 }
 
+a.navLink.active {
+  color: var(--primary-color);
+}
+
 .brandLink {
   display: block;
   text-decoration: none;
